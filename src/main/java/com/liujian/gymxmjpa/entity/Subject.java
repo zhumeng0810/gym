@@ -18,16 +18,5 @@ public class Subject {
   private long subId;
   private String subname;
   private double sellingPrice;
- /* @JoinColumn
-  private List<PrivateCoachInfo> privateCoachInfos;*/
-// @OneToMany
-// @JoinColumn(name = "subjectid")
-//  private PrivateCoachInfo privateCoachInfo;
-
-  /*
-
-  @OneToMany
-  @JsonIgnore
-  private List<PrivateCoach> privateCoachList;*/
 
 }

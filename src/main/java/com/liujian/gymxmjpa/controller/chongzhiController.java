@@ -48,8 +48,6 @@ public class chongzhiController {
 
     /**
      * @Description: 会员充值管理-进入会员充值记录界面
-     * @Author: LiuJian
-     * @Date: 2020/4/7
      */
     @RequestMapping("/jin")
     public String jin(){
@@ -59,8 +57,6 @@ public class chongzhiController {
 
     /**
      * @Description: 信息统计-进入收入统计界面
-     * @Author: LiuJian
-     * @Date: 2020/4/25
      */
     @RequestMapping("/jin2")
     public String jin2(){
@@ -70,8 +66,6 @@ public class chongzhiController {
 
     /**
      * @Description: 会员余额充值
-     * @Author: LiuJian
-     * @Date: 2020/4/7
      */
     @RequestMapping("/xin")
     @ResponseBody
@@ -98,8 +92,6 @@ public class chongzhiController {
 
     /**
      * @Description: 续费续卡记录-根据所选日期分页查询数据记录
-     * @Author: LiuJian
-     * @Date: 2020/4/7
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -132,8 +124,7 @@ public class chongzhiController {
 
     /**
      * @Description: 信息统计-进入收入统计界面
-     * @Author: LiuJian
-     * @Date: 2020/4/25
+
      */
     @RequestMapping("/tongji")
     @ResponseBody

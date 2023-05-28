@@ -23,8 +23,6 @@ public class LoosController {
 
     /**
      * @Description: 遗失物品管理-进入遗失物品信息界面
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/jin9")
     public String jin7(){
@@ -34,8 +32,6 @@ public class LoosController {
 
     /**
      * @Description: 遗失物品管理-根据遗失物品名称分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -49,8 +45,6 @@ public class LoosController {
 
     /**
      * @Description: 遗失物品管理-添加遗失物品
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -60,8 +54,6 @@ public class LoosController {
 
     /**
      * @Description: 遗失物品管理-根据遗失物品id查询信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/query3")
     @ResponseBody
@@ -73,8 +65,6 @@ public class LoosController {
 
     /**
      * @Description: 遗失物品管理-取回遗失物品修改其信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/quhui")
     @ResponseBody
@@ -84,8 +74,6 @@ public class LoosController {
 
     /**
      * @Description: 遗失物品管理-根据遗失物品id查询单个物品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/cha")
     @ResponseBody

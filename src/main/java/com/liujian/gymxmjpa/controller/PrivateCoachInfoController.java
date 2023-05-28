@@ -33,8 +33,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教课程-进入会员私教课程界面
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/jin3")
     public String jin3(){
@@ -44,8 +42,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-查询所有会员私教信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/ddaa")
     @ResponseBody
@@ -59,8 +55,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-查询教练,课程,会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @ModelAttribute("a")
     public Model cha(Model model){
@@ -72,8 +66,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-根据教练id,课程id,会员id分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -89,8 +81,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-根据id查询所有会员私教信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/query2")
     @ResponseBody
@@ -102,8 +92,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-根据id查询会员私教信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -113,8 +101,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-删除会员私教信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/del")
     @ResponseBody
@@ -131,8 +117,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-修改会员私教信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/upd")
     @ResponseBody
@@ -142,8 +126,6 @@ public class PrivateCoachInfoController {
 
     /**
      * @Description: 会员私教详情-根据会员id查询所有会员私教信息的数量
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/count")
     @ResponseBody
@@ -153,8 +135,6 @@ public class PrivateCoachInfoController {
     }
     /**
      * @Description: 会员私教详情-根据会员id在会员私教信息表中查询信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/byid")
     @ResponseBody

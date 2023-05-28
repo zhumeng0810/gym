@@ -26,8 +26,6 @@ public class MetypeController {
 
     /**
      * @Description: 会员卡类型-删除
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/del")
     @ResponseBody
@@ -42,8 +40,6 @@ public class MetypeController {
 
     /**
      * @Description: 会员卡类型-添加会员卡类型
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -54,8 +50,6 @@ public class MetypeController {
 
     /**
      * @Description: 会员卡类型-根据id查询
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -65,8 +59,6 @@ public class MetypeController {
 
     /**
      * @Description: 会员卡类型-修改会员卡类型信息
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/upd")
     @ResponseBody

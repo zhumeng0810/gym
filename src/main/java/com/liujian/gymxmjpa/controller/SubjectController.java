@@ -31,8 +31,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-进入课程信息界面
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/jin7")
     public String jin7(){
@@ -42,8 +40,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-根据课程名称分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -57,8 +53,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-根据课程id删除课程
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/del")
     @ResponseBody
@@ -84,8 +78,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-添加课程
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -95,8 +87,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-根据课程id查询课程信息
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -106,8 +96,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-修改课程信息
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/upd")
     @ResponseBody
@@ -117,8 +105,6 @@ public class SubjectController {
 
     /**
      * @Description: 课程管理-根据课程名称计算总课程数据
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/count")
     @ResponseBody

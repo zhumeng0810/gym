@@ -35,8 +35,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-进入会员到期界面
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/jin2")
     public String jin2(){
@@ -45,8 +43,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-进入会员续费充值界面
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/jin3")
     public String jin3(){
@@ -55,8 +51,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-进入会员余额充值界面
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/jin11")
     public String jin11(){
@@ -65,8 +59,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-进入会员列表界面
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/jin")
     public String jin(){
@@ -76,8 +68,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 教练管理-进入会员私教详情界面
-     * @Author: LiuJian
-     * @Date: 2020/4/8
      */
     @RequestMapping("/jin4")
     public String jin4(){
@@ -87,8 +77,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员列表-分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -103,8 +91,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员到期-分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/query2")
     @ResponseBody
@@ -119,8 +105,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员续卡-根据会员id查询会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -131,8 +115,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-根据会员id删除
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/delete")
     @ResponseBody
@@ -144,8 +126,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-添加新会员
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/insert")
     @ResponseBody
@@ -156,8 +136,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员管理-修改会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/update")
     @ResponseBody
@@ -169,8 +147,6 @@ public class MenberConntroller {
 
     /**
      * @Description: 会员卡续费-添加会员卡续费记录
-     * @Author: LiuJian
-     * @Date: 2020/4/6
      */
     @RequestMapping("/ins")
     @ResponseBody

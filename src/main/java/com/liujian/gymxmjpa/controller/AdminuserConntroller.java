@@ -29,8 +29,7 @@ public class AdminuserConntroller {
 
     /**
      * @Description: 输入端口号直接跳转登录界面
-     * @Author: LiuJian
-     * @Date: 2020/4/29
+
      */
     @RequestMapping("/")
     public String beforeLogin(){
@@ -39,8 +38,7 @@ public class AdminuserConntroller {
 
     /**
      * @Description: 管理员登录验证方法
-     * @Author: LiuJian
-     * @Date: 2020/4/4
+
      */
     @RequestMapping("/dl/yz")
     public String login(String username, String password,HttpSession httpSession,Model model){
@@ -57,20 +55,11 @@ public class AdminuserConntroller {
             model.addAttribute("msg","用户名或密码错误,请重新输入");
             return "login";
         }
-
-        /*Adminuser a= adminuserDao.findByAdminNameAndAdminmima(username,password);
-        if(a!=null){
-            httpSession.setAttribute("user",a);
-            return "WEB-INF/jsp/index" ;
-        }
-        model.addAttribute("mag","账号或密码错误");
-        return "login";*/
     }
 
     /**
      * @Description: 退出登录后清楚session
-     * @Author: LiuJian
-     * @Date: 2020/5/1
+
      */
     @RequestMapping("/logout")
     public String logout(){
@@ -82,8 +71,7 @@ public class AdminuserConntroller {
 
     /**
      * @Description: 跳转到修改密码界面
-     * @Author: LiuJian
-     * @Date: 2020/5/1
+
      */
     @RequestMapping("/updPassword")
     public String updPassword(){
@@ -93,8 +81,7 @@ public class AdminuserConntroller {
 
     /**
      * @Description: 修改密码
-     * @Author: LiuJian
-     * @Date: 2020/5/1
+
      */
     @RequestMapping("/upd/updPassword")
     public String updPasswordConfirm(String oldPassword,String newPassword,String newPasswordAgain,HttpSession httpSession,Model model){

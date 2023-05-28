@@ -40,8 +40,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-进入会员私教课程界面
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/jin3")
     public String jin3(){
@@ -51,8 +49,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-根据私教姓名分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -66,8 +62,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-查询所有会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/query2")
     @ResponseBody
@@ -77,8 +71,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-查询教练,课程,会员所有信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/topcoach")
     @ResponseBody
@@ -92,8 +84,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-添加会员私教课程
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -104,8 +94,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-根据课程id查询课程信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -115,8 +103,6 @@ public class PrivateCoachController {
 
     /**
      * @Description: 会员私教课程-根据会员id查询会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/cha2")
     @ResponseBody

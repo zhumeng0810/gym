@@ -29,8 +29,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-进入教练列表界面
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/jin3")
     public String jin3(){
@@ -40,8 +38,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-根据教练姓名分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -55,8 +51,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-根据教练id删除教练信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/del")
     @ResponseBody
@@ -82,8 +76,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-根据教练姓名计算总数据数量
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/count")
     @ResponseBody
@@ -94,8 +86,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-添加新教练
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -105,8 +95,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-根据教练id查询
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -116,8 +104,6 @@ public class CoachController {
 
     /**
      * @Description: 教练管理-修改教练信息
-     * @Author: LiuJian
-     * @Date: 2020/4/9
      */
     @RequestMapping("/upd")
     @ResponseBody

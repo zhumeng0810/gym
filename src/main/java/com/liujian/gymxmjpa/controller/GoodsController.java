@@ -28,8 +28,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-进入商品列表界面
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/sp")
     public String sp(){
@@ -39,8 +37,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-根据商品名称分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -54,8 +50,7 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-查询所有商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
+
      */
     @RequestMapping("/query2")
     @ResponseBody
@@ -66,8 +61,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-根据商品id删除商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/del")
     @ResponseBody
@@ -94,8 +87,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-添加商品
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -105,8 +96,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-根据商品id查询单个商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -116,8 +105,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-根据商品名称计算总数量
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/count")
     @ResponseBody
@@ -128,8 +115,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-修改商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/upd")
     @ResponseBody
@@ -139,8 +124,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-修改商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/update")
     @ResponseBody
@@ -150,8 +133,6 @@ public class GoodsController {
 
     /**
      * @Description: 商品管理-查询所有商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/topcoach")
     @ResponseBody

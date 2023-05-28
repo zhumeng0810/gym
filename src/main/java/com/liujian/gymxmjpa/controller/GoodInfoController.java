@@ -39,8 +39,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-进入商品售卖信息界面
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/spinfo")
     public String spinfo(){
@@ -50,8 +48,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-根据商品id,会员id查询商品售卖信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -66,8 +62,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-根据商品id,会员id删除信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/del")
     @ResponseBody
@@ -83,8 +77,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-根据商品id,会员id批量删除信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/dellist")
     @ResponseBody
@@ -98,8 +90,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-添加商品售卖信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/add")
     @ResponseBody
@@ -109,8 +99,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-根据商品id查询商品售卖信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/cha")
     @ResponseBody
@@ -120,8 +108,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-根据商品id查询商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/chagoods")
     @ResponseBody
@@ -131,8 +117,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-根据会员id查询会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/chamember")
     @ResponseBody
@@ -142,8 +126,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-修改商品售卖信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/upd")
     @ResponseBody
@@ -153,8 +135,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-修改会员信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/updmember")
     @ResponseBody
@@ -164,8 +144,6 @@ public class GoodInfoController {
 
     /**
      * @Description: 商品售卖信息管理-修改商品信息
-     * @Author: LiuJian
-     * @Date: 2020/4/14
      */
     @RequestMapping("/updgoods")
     @ResponseBody

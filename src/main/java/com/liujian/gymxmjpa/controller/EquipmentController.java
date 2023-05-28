@@ -22,8 +22,6 @@ public class EquipmentController {
 
     /**
      * @Description: 器材管理-进入器材信息界面
-     * @Author: LiuJian
-     * @Date: 2020/4/12
      */
     @RequestMapping("/yemian")
     public String yemian(){
@@ -33,8 +31,6 @@ public class EquipmentController {
 
     /**
      * @Description: 器材管理-根据器材名称分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/12
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -48,8 +44,6 @@ public class EquipmentController {
 
     /**
      * @Description: 器材管理-添加器材
-     * @Author: LiuJian
-     * @Date: 2020/4/12
      */
     @RequestMapping("/insert")
     @ResponseBody
@@ -60,8 +54,6 @@ public class EquipmentController {
 
     /**
      * @Description: 器材管理-根据器材id删除
-     * @Author: LiuJian
-     * @Date: 2020/4/12
      */
     @RequestMapping("/delete")
     @ResponseBody

@@ -24,8 +24,6 @@ public class MembertypeController {
 
     /**
      * @Description: 会员卡类型-进入jsp页面
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/jin5")
     public String jin5(){
@@ -35,8 +33,6 @@ public class MembertypeController {
 
     /**
      * @Description: 会员卡类型-查询所有数据
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/query")
     @ResponseBody
@@ -47,8 +43,6 @@ public class MembertypeController {
 
     /**
      * @Description: 会员卡类型-分页查询
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/queryq")
     @ResponseBody
@@ -62,8 +56,6 @@ public class MembertypeController {
 
     /**
      * @Description: 会员卡类型-根据id查询
-     * @Author: LiuJian
-     * @Date: 2020/4/4
      */
     @RequestMapping("/query2")
     @ResponseBody
